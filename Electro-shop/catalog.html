@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Каталог - Электроника Плюс</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="logo">Электроника Плюс</div>
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="catalog.html">Каталог</a>
+        <a href="cart.html">Корзина (<span id="cart-count">0</span>)</a>
+        <a href="login.html">Вход/Регистрация</a>
+    </nav>
+</header>
+
+<main>
+<section class="filters">
+    <input type="text" id="search" placeholder="Поиск товара...">
+    <select id="category-filter">
+        <option value="all">Все категории</option>
+        <option value="phones">Телефоны</option>
+        <option value="laptops">Ноутбуки</option>
+        <option value="accessories">Аксессуары</option>
+    </select>
+</section>
+
+<section class="catalog">
+    <div class="catalog-list" id="catalog-list"></div>
+</section>
+</main>
+
+<footer>
+<p>&copy; 2025 Электроника Плюс. Все права защищены.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
